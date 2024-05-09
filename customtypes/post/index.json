@@ -1,0 +1,56 @@
+{
+  "format": "custom",
+  "id": "post",
+  "label": "Post",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID",
+          "placeholder": "Ignore este campo, ele se preenche automaticamente."
+        },
+        "type": "UID"
+      },
+      "titulo": {
+        "type": "Text",
+        "config": {
+          "label": "Título",
+          "placeholder": ""
+        }
+      },
+      "capa": {
+        "type": "Image",
+        "config": {
+          "label": "Capa",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "autor": {
+        "type": "Text",
+        "config": {
+          "label": "Autor",
+          "placeholder": ""
+        }
+      },
+      "conteudo": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Conteúdo",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "resumo": {
+        "type": "Text",
+        "config": {
+          "label": "Resumo",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}
