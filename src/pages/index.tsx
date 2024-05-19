@@ -64,8 +64,8 @@ const Home: NextPage = () => {
             </Titulo>
           </div>
           <div className='bg-gray-300 dark:bg-gray-700 rounded-xl shadow-xl shadow-slate-700/50 m-4 p-6 h-[90%] justify-center flex'>
-            <a href="https://leonardo-soares.github.io/Leonardo-Soares/" target="_blank" className='absolute text-sm font-light text-white bottom-1 hover:underline' rel="noopener noreferrer">
-              Desenvolvido por Leonardo Soares
+            <a href="https://www.demolaypa.org" target="_blank" className='absolute text-sm font-light text-white bottom-1 hover:underline' rel="noopener noreferrer">
+              Desenvolvido por Equipe DM Pará
             </a>
             {mensagens &&
               <div className='overflow-auto w-full h-[75%] max-w-3xl pb-12'>
