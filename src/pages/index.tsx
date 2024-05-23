@@ -48,6 +48,26 @@ const Home: NextPage = () => {
   }
 
   return (
+    <>
+      <div className="bg-black/50 absolute flex-1 w-full h-full z-50 flex items-center justify-center">
+        <div className="bg-white rounded-md px-8 py-4">
+          <h2 className='text-3xl font-bold'>Em atualização, em breve novidades</h2>
+          <div className=' mt-4'>
+            <a href="https://www.instagram.com/demolaypa" rel="noreferrer" target='_blank' className=' hover:scale-105 scale-100 text-[#22A966] flex items-center justify-center text-xl font-medium border-2 border-solid rounded-md px-2 py-2 mt-4 border-[#22A966] transition-all gap-2'>
+              <img src="/img/instagram.png" alt="Logo do Gabinete do ICCE Ascenção" className="w-10 h-10" />
+              @demolaypa
+            </a>
+            <a href="https://www.instagram.com/cavalariapa" target='_blank' rel="noreferrer" className=' hover:scale-105 scale-100 text-[#22A966] flex items-center justify-center text-xl font-medium border-2 border-solid rounded-md px-2 py-2 mt-4 border-[#22A966] transition-all gap-2'>
+              <img src="/img/instagram.png" alt="Logo do Gabinete do ICCE Ascenção" className="w-10 h-10" />
+              @cavalariapa
+            </a>
+            <a href="https://demolaypa.org" target='_blank' rel="noreferrer" className=' hover:scale-105 scale-100 text-[#22A966] flex items-center justify-center text-xl font-medium border-2 border-solid rounded-md px-2 py-2 mt-4 border-[#22A966] transition-all gap-2'>
+              <img src="/img/internet.png" alt="Logo do Gabinete do ICCE Ascenção" className="w-10 h-10" />
+              demolaypa.org
+            </a>
+          </div>
+        </div>
+      </div>
     <div className='dark:bg-[#22A966]'>
       <Head>
         <title>Chat Jaques IA - Gabinete do ICCE</title>
@@ -170,6 +190,7 @@ const Home: NextPage = () => {
 
       </main>
     </div>
+    </>
   )
 }
 
